@@ -3,7 +3,7 @@ import { useState } from "react";
 // 🔧 Buranı öz backend ünvanınla DƏYİŞ:
 //   Lokal backend üçün:  "http://127.0.0.1:8000"
 //   Serverdədirsə:       "http://<SERVER_IP>:8000"
-const API_BASE = "/api";
+const API_BASE = "http://127.0.0.1:8000";
 
 export default function App() {
     const [loading, setLoading] = useState(false);
